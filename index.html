@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="refresh" content="20">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="author" content="Vinícius">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 3</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Outras tags HTML</h1>
+    </header>
+
+    <section>
+        <h2>HTML Tables</h2>
+        <table>
+            <!-- cabeçalho da tabela-->
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Cidade</th>
+                </tr>
+            </thead>
+            <!--corpo da tabela-->
+            <tbody>
+                <tr>
+                    <td>Maria de Oliveira</td>
+                    <td>19</td>
+                    <td>Chapecó</td>
+                </tr>
+                <tr>
+                    <td>Marcia Freitas</td>
+                    <td>30</td>
+                    <td>Xaxim</td>
+                </tr>
+            </tbody>
+
+
+        </table>
+    </section>
+
+    <section>
+        <h2>HTML Blocks X In-line</h2>
+        <p>Está tag é considerada um block, ou seja, ela por padrão
+            ocupará todo o epaço horizontal disponivel.
+        </p>
+        <a>Link 1</a>
+        <a>Link 2</a>
+    </section>
+
+    <section>
+        <h2>HTML Forms</h2>
+        <form>
+            <div>
+                <!--Criar caixa de texto-->
+                <!-- Placehouder serve para deixar o nome no meio da caixinha-->
+                <label for="nome">Nome:</label> 
+                <input type="text" nome=nome maxlength="50" placeholder="Digite o nome">
+            </div>
+
+            <div>
+                <label for="nascimento">Nascimento:</label>
+                <input type="date" nome="nascimento">
+            </div>
+
+            <div>
+                <label for="salario">Salario:</label>
+                <input type="number" nome="salario" placeholder="Digite o valor">
+            </div>
+
+            <div>
+                <label for="foto">Foto:</label>
+                <input type="file" nome="foto" placeholder="Digite o valor">
+            </div>
+            
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" nome="Senha" placeholder="Digite a senha">
+            </div>
+
+            <div>
+                <label for="estadocivil">Estado Civil:</label>
+                <select nome="estadocivil" >
+                    <option>Selecionar</option>
+                    <option>Solteiro</option>
+                    <option>Casado</option>
+                    <option>Divorciado</option>
+                    <option>Viúvo</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="obs">Observações:</label>
+               <textarea nome="obs" cols="30" rows="10"></textarea>
+            </div>
+         
+            <div>
+                <input type"submit" value="Salvar">
+                <input type"reset" value="Limpar">
+            </div>
+
+        </form>
+    </section>
+        
+</body>
+</html>
+
